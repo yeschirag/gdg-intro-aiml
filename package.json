@@ -7,6 +7,7 @@
   "dependencies": {
     "@types/react-howler": "3.7.1",
     "axios": "^1.11.0",
+    "ogl": "^1.0.11",
     "react": "^18.3.1",
     "react-howler": "3.7.4",
     "react-leaf-carousel": "2.0.3",

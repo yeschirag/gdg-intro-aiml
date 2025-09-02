@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Siriwave from "react-siriwave";
 import ReactHowler from "react-howler";
 import axios from "axios";
+import Aurora from "./Aurora";
 
 import "./styles.css";
 
@@ -41,6 +42,12 @@ const selectRadio = (radio: Radio) => {};
 
   return (
     <div className="App">
+      <Aurora
+        colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+        blend={0.5}
+        amplitude={1.0}
+        speed={0.5}
+      />
       <div>
         <Siriwave
           style="ios9"
