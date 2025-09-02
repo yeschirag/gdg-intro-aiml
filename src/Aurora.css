@@ -6,5 +6,5 @@
   height: 100vh;
   overflow: hidden;
   z-index: 4; /* keep it behind everything else */
-  opacity: 30%;
+  opacity: 50%;
 }
